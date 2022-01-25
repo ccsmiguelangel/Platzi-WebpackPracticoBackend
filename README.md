@@ -39,4 +39,5 @@ npm install typescript ts-loader @types/express -D
 
 npm install webpack-node-externals -D
 
+touch tsconfig.json
 ```

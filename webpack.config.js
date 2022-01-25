@@ -1,7 +1,7 @@
 const path = require("path");
 
-const NODE_ENV = process.env.NODE_ENV;
-const PORT = process.env.PORT;
+const NODE_ENV = process.env.NODE_ENV | "development";
+const PORT = process.env.PORT | 3000;
 
 module.exports = {
   name: "webpackbackendpractico-express",
@@ -13,7 +13,8 @@ module.exports = {
     filename: "index.js",
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".ts", ".js"], 
+    // Añadido extensión ".ts" en array para trabajar con este en el proyecto
   },
   module: {
     rules: [
@@ -27,6 +28,7 @@ module.exports = {
       {
         test: /\.ts$/,
         use: ["ts-loader"],
+        //Loader para TipeScript
       },
     ],
   },
