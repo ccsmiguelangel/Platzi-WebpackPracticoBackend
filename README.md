@@ -36,4 +36,7 @@ npm install @babel/core @babel/preset-env babel-loade
 r -D
 
 npm install typescript ts-loader @types/express -D
+
+npm install webpack-node-externals -D
+
 ```
