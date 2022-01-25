@@ -1,0 +1,36 @@
+{
+  "name": "webpackbackendpractico",
+  "version": "0.0.1",
+  "description": "Realizado con ♥ y con un Ingenio Innato.",
+  "main": "webpack.config.dev.js",
+  "scripts": {
+    "test": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccsmiguelangel/Platzi-WebpackPracticoBackend.git"
+  },
+  "keywords": [
+    "Express",
+    "Webpack",
+    "JavaScript",
+    "Node",
+    "Js"
+  ],
+  "author": "Ingenio Innato <ingenioinnato@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccsmiguelangel/Platzi-WebpackPracticoBackend/issues"
+  },
+  "homepage": "https://github.com/ccsmiguelangel/Platzi-WebpackPracticoBackend#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
