@@ -1,5 +1,6 @@
 const path = require("path");
 const nodeExternals = require('webpack-node-externals');
+const NodemonPlugin = require('nodemon-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV | "development";
 const PORT = process.env.PORT | 3000;
@@ -34,4 +35,9 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new NodemonPlugin({
+        script: './dist/index.js',
+    })
+  ]
 };
