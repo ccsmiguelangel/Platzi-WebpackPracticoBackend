@@ -4,7 +4,10 @@
   "description": "Realizado con ♥ y con un Ingenio Innato.",
   "main": "webpack.config.dev.js",
   "scripts": {
-    "test": "npm run start"
+    "test": "npm run start",
+    "start": "node dist/index.js",
+    "dev": "webpack --mode development && node dist/index.js",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
